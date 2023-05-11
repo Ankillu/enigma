@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enigma</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Enigma</h1>
+        <p>Dica 1: O enigma envolve Magnus Carlsen.</p>
+        <p>Dica 2: A música descreve uma pessoa que é "um pouco distorcida o nome da musica é TWISTED".</p>
+    
+
+        <form onsubmit="verificarResposta(); return false;">
+            <input type="text" id="resposta" required>
+            <hr class="linha-branca">
+        </form>
+    </div>
+
+  <p id="resultado"></p>
+
+  <script>
+    document.getElementById("resposta").addEventListener("keydown", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    verificarResposta();
+  }
+});
+
+function verificarResposta() {
+  var resposta = document.getElementById("resposta").value.toLowerCase();
+  var resultado = document.getElementById("resultado");
+
+  if (resposta === "bispo") {
+    resultado.textContent = "Resposta correta! Parabéns!";
+    resultado.idList.add("resposta-certa")
+  } else {
+    resultado.textContent = "Resposta incorreta. Tente novamente.";
+    resultado.classList.add("resposta-incorreta");
+  }
+}
+
+  </script>
+</body>
+</html>
