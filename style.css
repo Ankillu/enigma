@@ -1,99 +1,78 @@
 body {
-    background-color: #0c0e2c;
+  background-color: #0c0e2c;
 }
 
 div {
-    text-align: center;
-  }
-  
-h1 {
-    padding: 2em;
-    text-align: center;
-    color: white;
-  }
-p {
-    color: white;
-}
-
-  
-#resultado {
-    font-size: 18px;
-    color: #333;
-    margin-top: 10px;
-  }
-
-.resposta-correta {
-    color: green;
-    font-weight: bold;
-  }
-
-.resposta-incorreta {
-    color: red;
-    font-weight: bold;
-  }
-
-  body {
-    background-color: #0c0e2c;
-}
-
-div {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    padding: 2em;
-    text-align: center;
-    color: white;
+  padding: 2em;
+  text-align: center;
+  color: white;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 #resultado {
-    font-size: 18px;
-    color: #333;
-    margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
 }
 
 .resposta-correta {
-    color: green;
-    font-weight: bold;
+  color: green;
+  font-weight: bold;
 }
 
 .resposta-incorreta {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 
 form {
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30em;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30em;
 }
 
 form input[type="text"],
 form input[type="email"] {
-    visibility: visible;
-    background-color: #0c0e2c;
-    border: 0;
-    color: white;
-    margin-bottom: 10px;
+  visibility: visible;
+  background-color: #0c0e2c;
+  border: 0;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .linha-branca {
-    visibility: visible;
-    border-top: 1px solid white;
-    margin-top: -12px;
-    margin-bottom: 15px;
-    background-color: white;
-    width: 250px;
+  visibility: visible;
+  border-top: 1px solid white;
+  margin-top: -12px;
+  margin-bottom: 15px;
+  background-color: white;
+  width: 250px;
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+      padding: 1em;
+  }
 
+  form {
+      margin-top: 10em;
+  }
 
+  form input[type="text"],
+  form input[type="email"] {
+      width: 80%;
+  }
 
-
-  
+  .linha-branca {
+      width: 80%;
+  }
+}
