@@ -58,143 +58,51 @@ form input[type="email"] {
   width: 250px;
 }
 
-@media screen and (max-width: 600px) {
-  h1 {
-    padding: 1em;
-  }
-
+@media screen and (max-width: 736px) {
   form {
-    margin-top: 10em;
-@media screen and (max-width: 375px) {
-  h1 {
-    padding: 1em;
-  }
-
-  form {
-    margin-top: 10em;
-  }
-
-  form input[type="text"],
-  form input[type="email"] {
-    width: 80%;
-  }
-
-  .linha-branca {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 734px) {
-  h1 {
-    padding: 1em;
-  }
-
-  form {
-    margin-top: 10em;
-  }
-
-  form input[type="text"],
-  form input[type="email"] {
-    width: 80%;
-  }
-
-  .linha-branca {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 412px) {
-  h1 {
-    padding: 1em;
-  }
-
-  form {
-    margin-top: 10em;
-  }
-
-  form input[type="text"],
-  form input[type="email"] {
-    width: 80%;
-  }
-
-  .linha-branca {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 648px) {
-  h1 {
-    padding: 1em;
-  }
-
-  form {
-    margin-top: 10em;
-  }
-
-  form input[type="text"],
-  form input[type="email"] {
-    width: 80%;
-  }
-
-  .linha-branca {
-    width: 80%;
+    margin-top: 5em; /* Reduza a margem superior */
   }
 }
 
 @media screen and (max-width: 667px) {
-  h1 {
-    padding: 1em;
-  }
-
   form {
-    margin-top: 10em;
+    margin-top: 3em; /* Reduza ainda mais a margem superior */
   }
+}
 
-  form input[type="text"],
-  form input[type="email"] {
-    width: 80%;
+@media screen and (max-width: 648px) {
+  form {
+    margin-top: 2em; /* Ajuste a margem superior conforme necessário */
   }
+}
 
-  .linha-branca {
-    width: 80%;
+@media screen and (max-width: 600px) {
+  form {
+    margin-top: 1em; /* Ajuste a margem superior conforme necessário */
   }
 }
 
 @media screen and (max-width: 414px) {
-  h1 {
-    padding: 1em;
-  }
-
   form {
-    margin-top: 10em;
-  }
-
-  form input[type="text"],
-  form input[type="email"] {
-    width: 80%;
-  }
-
-  .linha-branca {
-    width: 80%;
+    margin-top: 0.5em; /* Ajuste a margem superior conforme necessário */
   }
 }
 
-@media screen and (max-width: 736px) {
-  h1 {
-    padding: 1em;
-  }
-
+@media screen and (max-width: 412px) {
   form {
-    margin-top: 10em;
+    margin-top: 0.3em; /* Ajuste a margem superior conforme necessário */
   }
+}
 
-  form input[type="text"],
-  form input[type="email"] {
-    width: 80%;
+@media screen and (max-width: 375px) {
+  form {
+    margin-top: 0.2em; /* Ajuste a margem superior conforme necessário */
   }
+}
 
-  .linha-branca {
-    width: 80%;
+@media screen and (max-width: 734px) {
+  form {
+    margin-top: 4em; /* Ajuste a margem superior conforme necessário */
   }
 }
 
