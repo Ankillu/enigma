@@ -105,6 +105,12 @@ form input[type="email"] {
     margin-top: 4em; /* Ajuste a margem superior conforme necessário */
   }
 }
+@media screen and (min-width: 1024px) {
+  form {
+    margin-top: 15em; /* Ajuste a margem superior para telas maiores */
+  }
+}
+
 
 
 
