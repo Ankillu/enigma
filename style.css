@@ -65,6 +65,13 @@ form input[type="email"] {
 
   form {
     margin-top: 10em;
+@media screen and (max-width: 375px) {
+  h1 {
+    padding: 1em;
+  }
+
+  form {
+    margin-top: 10em;
   }
 
   form input[type="text"],
@@ -76,3 +83,121 @@ form input[type="email"] {
     width: 80%;
   }
 }
+
+@media screen and (max-width: 734px) {
+  h1 {
+    padding: 1em;
+  }
+
+  form {
+    margin-top: 10em;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 80%;
+  }
+
+  .linha-branca {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  h1 {
+    padding: 1em;
+  }
+
+  form {
+    margin-top: 10em;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 80%;
+  }
+
+  .linha-branca {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  h1 {
+    padding: 1em;
+  }
+
+  form {
+    margin-top: 10em;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 80%;
+  }
+
+  .linha-branca {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  h1 {
+    padding: 1em;
+  }
+
+  form {
+    margin-top: 10em;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 80%;
+  }
+
+  .linha-branca {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    padding: 1em;
+  }
+
+  form {
+    margin-top: 10em;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 80%;
+  }
+
+  .linha-branca {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  h1 {
+    padding: 1em;
+  }
+
+  form {
+    margin-top: 10em;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 80%;
+  }
+
+  .linha-branca {
+    width: 80%;
+  }
+}
+
+
+
+
